@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(39, 36, 36);
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+#mylabel{
+    
+    display: block;
+    text-align: center;
+    font-size: 10em;
+}
+#buttoncontainer{
+    
+    text-align: center;
+}
+
+.buttons{
+    
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: rgb(67, 70, 154);
+    border-radius: 5px;
+    cursor:pointer;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background-color: blue;
+}
